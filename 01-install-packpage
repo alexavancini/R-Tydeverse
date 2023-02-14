@@ -1,0 +1,6 @@
+#Instalando o pacoteÇ
+install.packages("tidyverse")
+
+#Chamando o pacote instalado no R:
+library(tidyverse)
+
