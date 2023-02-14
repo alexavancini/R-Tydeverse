@@ -1,0 +1,19 @@
+install.packages("tidyverse")
+library(tidyverse)
+
+#importando um data frame
+#comando read
+
+#arquivo csv
+meu_dataset_csv <- read_csv("CAMINHO NO COMPUTADOR COM A BARRA INVERTIDA")
+ 
+#EXEMPLO
+meu_dataset <- read_csv("C:\Alex\R\my_mtcars.csv")
+meu_dataset
+
+#arquivo excel
+library(readxl)
+meu_dataset_xlsx <- read_excel("CAMINHO NO COMPUTADOR COM A BARRA INVERTIDA")
+
+#EXEMPLO
+meu_dataset_xlsx <- read_excel("C:/Alex/R/my_mtcars.xlsx")
